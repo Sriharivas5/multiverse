@@ -1,0 +1,166 @@
+.types {
+    background-image: radial-gradient(rgb(40, 0, 42), rgb(17, 20, 17), rgb(0, 0, 44));
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+.banner {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width:700px) {
+    .banner {
+        width: 100%;
+        padding: 5px 0;
+        flex-direction: column-reverse;
+    }
+
+    .heading {
+        width: 200%;
+        height: 100%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading h1 {
+    text-align: center;
+}
+
+.heading p {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.img {
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.img img {
+    width: 90%;
+}
+
+
+.typesHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.divide {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.maxTegmark {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.maxTegmark h3 {
+    width: fit-content;
+    border-bottom: 2px solid rgb(204, 0, 255);
+}
+
+@media(max-width:700px) {
+    .card1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+
+    }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+
+    }
+
+    .card1Content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .card1Img {
+        width: 100%;
+    }
+}
+
+.card1,.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.card1,.card2 p{
+    line-height: 22px;
+    word-spacing: 8px;
+}
+
+
+.card1Content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.card1Img {
+    padding: 50px;
+    width: 80%;
+}
+
+#leftImg {
+    border-top: 2px solid rgb(80, 0, 102);
+    border-left: 2px solid rgb(80, 0, 102);
+    box-shadow: -5px -5px 5px rgba(80, 0, 102, 0.588);
+}
+
+#rightImg {
+    border-bottom: 2px solid rgb(154, 49, 0);
+    border-right: 2px solid rgb(154, 49, 0);
+    box-shadow: 5px 5px 5px rgba(154, 26, 1, 0.553);
+}
+
+.card1Img img {
+    width: 100%;
+    height: 100%;
+
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home {
+    height: 88vh;
+    width: 100vw;
+    z-index: -9;
+}
+#backgroundVideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100vw;
+    height:   98vh;
+}
+
+.animation{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-color: aqua;
+}
+.effect{
+    position: absolute;
+    top: 100vh;
+}
+.div{
+    position: absolute;
+    top: 200vh;
+}

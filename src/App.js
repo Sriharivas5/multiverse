@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       {/* <Navbar /> */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/multiverse" element={<Home />} />
         <Route path="/blackhole" element={<BlackHoles />} />
         <Route path="/darkMatter" element={<DarkMatter />} />
       </Routes>

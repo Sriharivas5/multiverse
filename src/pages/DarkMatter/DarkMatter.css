@@ -8,7 +8,7 @@
     align-items: center;
     gap: 30px;
     padding: 30px;
-    background-image: radial-gradient(#18051d,#110018, #000c1e);
+    background-image: radial-gradient(#18051d, #110018, #000c1e);
     color: aliceblue;
 }
 
@@ -23,7 +23,7 @@
 
 
 
- .darkMatterCards {
+.darkMatterCards {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -32,28 +32,49 @@
 }
 
 
-.darkMatterCard{
+.darkMatterCard {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 350px;
 }
-.darkMatterCardImage{
+
+@media screen and (min-width: 700px) {
+
+    .darkMatterCard {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .darkMatterCardImage{
+        width: 80%;
+    }
+    .darkMatterCardContent {
+        width: 50%;
+    }
+}
+
+.darkMatterCardImage {
     padding: 20px 20px 0 20px;
-    width: 40%;
+    width: 100%;
     height: 80%;
 }
-.darkMatterCardImage img{
+
+.darkMatterCardImage img {
     height: 100%;
     width: 100%;
 }
-.darkMatterCardContent{
+
+.darkMatterCardContent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 15px;
-    width: 50%;
+    width: 90%;
 }
-.darkMatterCardContent button{
+
+.darkMatterCardContent button {
     padding: 5px 10px;
 }

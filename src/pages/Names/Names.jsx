@@ -106,9 +106,9 @@ const Names = () => {
             <div className="tab"  data-aos="zoom-out"  data-aos-duration="3000">
                 <h2 id="tabHeading">Concept of the multiverse is used in various works</h2>
                 <Box id="tabBox"
-                    sx={{ flexGrow: 1, display: 'flex', alignItems: "center", height: 380 }}
+                    sx={{ flexGrow: 1, display: 'flex', alignItems: "center", height: 380}}
                 >
-                    <Tabs
+                     <Tabs
                         orientation="vertical"
                         variant="scrollable"
                         value={value}

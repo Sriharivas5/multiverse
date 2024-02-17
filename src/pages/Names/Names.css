@@ -112,7 +112,7 @@
 
     #tabBox {
         flex-direction: column;
-        height: 500px;
+        height: auto;
 
     }
 

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/multiverse/static/css/main.1f5c29fe.css",
+    "main.js": "/multiverse/static/js/main.701db842.js",
+    "static/media/background.mp4": "/multiverse/static/media/background.7967e6e854b6fb82e8c5.mp4",
+    "index.html": "/multiverse/index.html",
+    "main.1f5c29fe.css.map": "/multiverse/static/css/main.1f5c29fe.css.map",
+    "main.701db842.js.map": "/multiverse/static/js/main.701db842.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f5c29fe.css",
+    "static/js/main.701db842.js"
+  ]
+}

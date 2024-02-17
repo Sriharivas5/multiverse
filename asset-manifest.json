@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/multiverse/static/css/main.1f5c29fe.css",
+    "main.css": "/multiverse/static/css/main.0b098b71.css",
     "main.js": "/multiverse/static/js/main.66cd77ae.js",
     "static/media/background.mp4": "/multiverse/static/media/background.7967e6e854b6fb82e8c5.mp4",
     "index.html": "/multiverse/index.html",
-    "main.1f5c29fe.css.map": "/multiverse/static/css/main.1f5c29fe.css.map",
+    "main.0b098b71.css.map": "/multiverse/static/css/main.0b098b71.css.map",
     "main.66cd77ae.js.map": "/multiverse/static/js/main.66cd77ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f5c29fe.css",
+    "static/css/main.0b098b71.css",
     "static/js/main.66cd77ae.js"
   ]
 }

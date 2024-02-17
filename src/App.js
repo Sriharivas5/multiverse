@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/multiverse" element={<Home />} />
-        <Route path="/blackhole" element={<BlackHoles />} />
-        <Route path="/darkMatter" element={<DarkMatter />} />
+        <Route path="/multiverse/blackhole" element={<BlackHoles />} />
+        <Route path="/multiverse/darkMatter" element={<DarkMatter />} />
       </Routes>
 
     </div>

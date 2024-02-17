@@ -9,8 +9,8 @@ const Navbar = () => {
                 <h2><Link to="/multiverse">ANANTH VISHW</Link></h2>
             </div>
             <div className="navbarItems">
-                <li  > <Link to="/blackhole">Black Holes</Link></li>
-                <li  > <Link to="/darkMatter">DarkMatter </Link></li>
+                <li  > <Link to="/multiverse/blackhole">Black Holes</Link></li>
+                <li  > <Link to="/multiverse/darkMatter">DarkMatter </Link></li>
 
             </div>
         </div>
